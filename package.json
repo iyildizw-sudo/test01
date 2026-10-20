@@ -1,12 +1,14 @@
 {
-  "name": "kisisel-site",
+  "name": "yildiz-mobilya",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "serve . -l tcp://0.0.0.0:${PORT:-3000}"
+    "start": "node server.js"
   },
   "dependencies": {
-    "serve": "^14.2.4"
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "bcryptjs": "^2.4.3"
   },
   "engines": {
     "node": ">=18"
