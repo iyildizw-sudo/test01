@@ -43,9 +43,9 @@ a:hover{color:#f26b1d}
       </div>
     </div>
     <div style="position:relative;aspect-ratio:4/3.4;border-radius:20px;overflow:hidden;background:#eef1f6">
-      <img src="images/web/hero-1.jpg" alt="Yemek ve yaşam alanı" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:{{ op0 }};transition:opacity 1s ease"></img>
-      <img src="images/web/hero-2.jpg" alt="Salon ve oturma grubu" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:{{ op1 }};transition:opacity 1s ease"></img>
-      <img src="images/web/hero-3.jpg" alt="Yatak odası" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:{{ op2 }};transition:opacity 1s ease"></img>
+      <img src="images/hero-1.jpg" alt="Yemek ve yaşam alanı" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:{{ op0 }};transition:opacity 1s ease"></img>
+      <img src="images/hero-2.jpg" alt="Salon ve oturma grubu" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:{{ op1 }};transition:opacity 1s ease"></img>
+      <img src="images/hero-3.jpg" alt="Yatak odası" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:{{ op2 }};transition:opacity 1s ease"></img>
       <div style="position:absolute;left:0;right:0;bottom:20px;display:flex;justify-content:center;gap:8px">
         <sc-for list="{{ heroSlides }}" as="s" hint-placeholder-count="3">
           <button type="button" aria-label="{{ s.alt }}" onClick="{{ s.go }}" style="width:{{ s.dotW }};height:8px;border:none;padding:0;border-radius:999px;background:{{ s.dotBg }};cursor:pointer;transition:all .3s"></button>
@@ -64,21 +64,21 @@ a:hover{color:#f26b1d}
       </div>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:24px">
           <div style="background:#fff;border:1px solid #e6e9ef;border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:transform .25s ease,box-shadow .25s ease" style-hover="transform:translateY(-4px);box-shadow:0 18px 40px -20px rgba(20,33,61,.25)">
-            <div style="aspect-ratio:4/3;overflow:hidden;background:#eef1f6"><img src="images/web/oturma-grubu.jpg" alt="Oturma Grupları" style="width:100%;height:100%;object-fit:cover;display:block"></img></div>
+            <div style="aspect-ratio:4/3;overflow:hidden;background:#eef1f6"><img src="images/oturma-grubu.jpg" alt="Oturma Grupları" style="width:100%;height:100%;object-fit:cover;display:block"></img></div>
             <div style="padding:28px 28px 32px;display:flex;flex-direction:column;gap:12px">
               <h3 style="margin:0;font-size:22px;font-weight:700;letter-spacing:-0.01em;color:#14213d">Oturma Grupları</h3>
               <p style="margin:0;font-size:16px;line-height:1.6;color:#3b4763;text-wrap:pretty">Koltuk ve kanepeler; kumaş, renk ve ölçü tercihinize göre.</p>
             </div>
           </div>
           <div style="background:#fff;border:1px solid #e6e9ef;border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:transform .25s ease,box-shadow .25s ease" style-hover="transform:translateY(-4px);box-shadow:0 18px 40px -20px rgba(20,33,61,.25)">
-            <div style="aspect-ratio:4/3;overflow:hidden;background:#eef1f6"><img src="images/web/yemek-odasi.jpg" alt="Yemek Odası" style="width:100%;height:100%;object-fit:cover;display:block"></img></div>
+            <div style="aspect-ratio:4/3;overflow:hidden;background:#eef1f6"><img src="images/yemek-odasi.jpg" alt="Yemek Odası" style="width:100%;height:100%;object-fit:cover;display:block"></img></div>
             <div style="padding:28px 28px 32px;display:flex;flex-direction:column;gap:12px">
               <h3 style="margin:0;font-size:22px;font-weight:700;letter-spacing:-0.01em;color:#14213d">Yemek Odası</h3>
               <p style="margin:0;font-size:16px;line-height:1.6;color:#3b4763;text-wrap:pretty">Masif ahşap masa, sandalye ve konsol takımları.</p>
             </div>
           </div>
           <div style="background:#fff;border:1px solid #e6e9ef;border-radius:18px;overflow:hidden;display:flex;flex-direction:column;transition:transform .25s ease,box-shadow .25s ease" style-hover="transform:translateY(-4px);box-shadow:0 18px 40px -20px rgba(20,33,61,.25)">
-            <div style="aspect-ratio:4/3;overflow:hidden;background:#eef1f6"><img src="images/web/hero-3.jpg" alt="Yatak Odası" style="width:100%;height:100%;object-fit:cover;display:block"></img></div>
+            <div style="aspect-ratio:4/3;overflow:hidden;background:#eef1f6"><img src="images/hero-3.jpg" alt="Yatak Odası" style="width:100%;height:100%;object-fit:cover;display:block"></img></div>
             <div style="padding:28px 28px 32px;display:flex;flex-direction:column;gap:12px">
               <h3 style="margin:0;font-size:22px;font-weight:700;letter-spacing:-0.01em;color:#14213d">Yatak Odası</h3>
               <p style="margin:0;font-size:16px;line-height:1.6;color:#3b4763;text-wrap:pretty">Karyola, gardırop ve komodin; odanıza tam uyacak ölçüde.</p>
